@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+env/
+venv/
+.venv/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Distribution / packaging
+*.whl
+*.tar.gz
+
+# Testing
+.pytest_cache/
+.tox/
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Environments
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Data — train / test / validation
+data/
+datasets/
+train/
+test/
+val/
+validation/
+raw/
+processed/
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.bin
+
+# Model checkpoints & weights
+checkpoints/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.pb
+*.tflite
+
+# Outputs
+outputs/
+results/
+runs/
+wandb/
+mlruns/

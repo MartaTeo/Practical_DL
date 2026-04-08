@@ -1,0 +1,21 @@
+[project]
+name = "practical-dl"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "scikit-learn",
+    "scipy",
+    "matplotlib",
+    "seaborn",
+    "statsmodels",
+    "torch",
+    "jupyter",
+    "ipykernel",
+    "tqdm>=4.67.3",
+]
+
+[dependency-groups]
+dev = []
