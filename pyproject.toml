@@ -13,9 +13,13 @@ dependencies = [
     "statsmodels",
     "torch",
     "jupyter",
+    "notebook>=7",
     "ipykernel",
     "tqdm>=4.67.3",
 ]
+
+# CNN/LSTM BCD notebooks: torch, numpy, pandas, pyarrow (parquet), scikit-learn
+# (RobustScaler in loaders), matplotlib; jupyter + notebook for `jupyter notebook`.
 
 [dependency-groups]
 dev = []
